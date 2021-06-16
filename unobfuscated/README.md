@@ -11,7 +11,6 @@ parse.c is written in the same subset of C that it can
 compile.  interp.c is not, but with some minimal tweaking
 it can be.
 
-        Share and enjoy
-        -- Lennart Augustsson
-
-        lennart@augustsson.net
+Share and enjoy
+-- Lennart Augustsson
+lennart@augustsson.net
