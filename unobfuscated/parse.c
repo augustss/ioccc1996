@@ -1,5 +1,6 @@
 #ifndef SELF
 #include <stdio.h>
+#include <stdlib.h>
 int
 eputchar(int c)
 {

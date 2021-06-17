@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 
 int
@@ -115,7 +116,7 @@ main(int argc, char **argv)
 		case 0: r = getchar(); break;
 		case 1: r = putchar(TOS); break;
 		case 2: r = eputchar(TOS); break;
-		case 3: r = exit(TOS); break;
+		case 3: exit(TOS); break;
 		}
 		DORET;
 	    } else {
